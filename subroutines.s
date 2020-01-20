@@ -47,7 +47,8 @@ main:
 	
 	# The jal (Jump And Link) instruction jumps to a specified address 
 	# (register or label) and sets $ra (Return Address) to the address
-	# of the next instruction. 
+	# following the jal instruction, i.e, sets $ra to address of the
+	# jal instruction + 4 since each instruction is 4 bytes. 
 	
 
 	# Jump to label hello and set $ra to the address of the next 

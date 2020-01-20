@@ -45,8 +45,8 @@
 
 	.data
 
-yes:	.asciiz "Yes ($t0 < $t1)\n"
-no:	.asciiz "No ($t0 >= $t1)\n"
+yes:	.asciiz "Yes ($t0 <  $t1)\n"
+no:	.asciiz "No  ($t0 >= $t1)\n"
 
 
 # ---------------------------------------------------------------------------
@@ -61,7 +61,7 @@ main:
 
 	# Execution starts at the label main.
 
-	addi $s0, $s0, 0 	# Initialize $s0 = 0.
+	move $s0, $zero 	# Initialize $s0 = 0.
 
 
   	#####

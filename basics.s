@@ -219,7 +219,7 @@ main:
 	move $t6, $t5
 
 	#####
-	##### print_string (system call(
+	##### print_string (system call)
 	#####
 
 	# Set system call code 4 (print_string) in regsiter $v0.
